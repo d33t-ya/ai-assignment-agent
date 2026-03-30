@@ -10,8 +10,8 @@ Students paste in their assignment prompt and a description of what they're tryi
 
 The agent uses a two-layer prompting approach:
 
-1. **System prompt** — a set of instructions given to Gemini that define the agent's behavior: stay educational, never produce direct code solutions, keep explanations CS-appropriate
-2. **User prompt** — the student's actual assignment description and question
+1. **System prompt**: a set of instructions given to Gemini that define the agent's behavior: stay educational, never produce direct code solutions, keep explanations CS-appropriate
+2. **User prompt**: the student's actual assignment description and question
 
 This combination constrains the model's output so it operates within academic integrity guidelines regardless of how the student phrases their input.
 
@@ -38,12 +38,3 @@ Currently a solo project built as a focused exploration of AI agent design and A
 
 Built as a solo course project at the University of Washington Bothell. The core design challenge was not just making the agent helpful — it was making it reliably *not too* helpful.
 
----
-
-## Resume Blurb
-
-**ai-assignment-agent – AI Teaching Assistant | Solo Developer**
-- Built a Python-based AI teaching assistant using the Gemini Flash API that guides CS students through assignments by explaining concepts without generating code solutions.
-- Designed a two-layer prompting system combining a constrained system prompt with dynamic user input to enforce academic integrity guidelines across varied student queries.
-- Evaluated multiple LLM providers (GPT-4o, Claude, Gemini) and selected Gemini Flash based on response quality and API fit for the use case.
-- Implemented basic error handling and testing to ensure stable, predictable agent behavior.
